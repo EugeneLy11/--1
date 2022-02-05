@@ -1,0 +1,257 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+/*-$переменная-&тег внутри себя-@import-%шаблон-@mixin---------*/
+body {
+  width: 100%;
+  max-width: 1280px;
+  height: 2000px;
+  margin: 0px auto;
+}
+
+.first {
+  width: 100%;
+  max-width: 1280px;
+  height: 734px;
+  margin: 0px auto;
+}
+
+.notbutton {
+  width: 33px;
+  height: 734px;
+  padding: 14px 0 0 0px;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  font-size: 22px;
+  line-height: 50px;
+  font-weight: 350;
+  font-family: "Arial";
+  text-transform: uppercase;
+  background-color: #6af;
+}
+
+h6 {
+  color: transparent;
+  background: url(../img/spruces.jpg);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mainframe {
+  width: 100%;
+  max-width: 1280px;
+  height: 100%;
+  float: right;
+  font-family: "TECHNIC";
+  border-bottom: 1px solid #ddd;
+  background: url(../img/spruces.jpg) 0 0 round;
+}
+.mainframe .h1 {
+  width: 400px;
+  height: 156px;
+  position: relative;
+  top: -490px;
+  left: -50px;
+  display: inline-block;
+  padding: 13px 0 0 16px;
+  margin: 84px 120px 70px 153px;
+  font-size: 60px;
+  font-family: Arial;
+  color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+}
+
+.h2 {
+  width: 200px;
+  height: 200px;
+  margin: 219px 0 0 0px;
+  position: relative;
+  top: 27px;
+  left: -680px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 50px;
+  font-family: Arial;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: left;
+  padding: 22px 0 10px;
+  border-radius: 1px 100% 1px 0;
+}
+.h2 .s1 {
+  display: inline-block;
+  writing-mode: tb-rl;
+  padding: 0 0 0 4px;
+}
+
+.s2 {
+  display: inline-block;
+  margin: 124px 0 0 2px;
+  position: absolute;
+}
+
+.nav {
+  width: 100%;
+  max-width: 1280px;
+  height: 100px;
+  background-color: #6af;
+  opacity: 95%;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0px;
+  margin: 0px auto;
+}
+.nav > .image {
+  background: url(../img/icon3.png) 40px 9px no-repeat;
+  background-size: 80px 80px;
+  width: 120px;
+  height: 100px;
+  display: inline-block;
+}
+
+.nav .button1 {
+  width: 33px;
+  height: 99px;
+  color: #333;
+  padding: 1px 0 0 0;
+  background-color: #6af;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  display: block;
+  text-align: center;
+  font-size: 23px;
+  line-height: 24px;
+  font-weight: 350;
+  font-family: "Unica One", cursive;
+  position: absolute;
+  text-shadow: 1px 1px 4px #29f;
+}
+.nav .button1:hover {
+  background-color: #49f;
+  border-bottom: 10px solid #49f;
+}
+
+.main {
+  width: 100%;
+  max-width: 1280px;
+  height: 100%;
+  background-color: #e8e8e8;
+  margin: 0px auto;
+}
+
+.mainm {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  background-color: rgba(230, 230, 230, 0.4);
+}
+.mainm > .onem {
+  height: 304px;
+  width: 100%;
+  border-left: 6px solid rgba(0, 100, 200, 0.9);
+}
+.mainm > .onem > .one {
+  height: 304px;
+  width: 100%;
+  padding: 20px 0 0 20px;
+  background-color: rgba(64, 144, 255, 0.5);
+}
+
+.two {
+  height: 608px;
+  width: 100%;
+  box-shadow: 0 0 10px 0 #333 inset;
+}
+
+.threem {
+  height: 304px;
+  width: 100%;
+  border-left: 6px solid rgba(0, 100, 200, 0.9);
+}
+.threem > .three {
+  height: 304px;
+  width: 100%;
+  padding: 20px 0 0 20px;
+  background-color: rgba(64, 144, 255, 0.5);
+}
