@@ -639,16 +639,15 @@ header {
   margin-bottom: -3px;
 }
 
-.pink-icon {
-  background-color: #ea80fc;
-}
-.pink-icon:before {
-  content: url(../img/iconDownloadsPink.png);
-  position: absolute;
-  margin-left: -125px;
-  margin-bottom: -3px;
-}
-
+/*.pink-icon {
+	background-color: #ea80fc;
+	&:before {
+		content: url(../img/iconDownloadsPink.png);
+		position: absolute;
+		margin-left: -125px;
+		margin-bottom: -3px;
+	}
+}*/
 .services {
   display: flex;
   flex-direction: column;
